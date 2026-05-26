@@ -1,4 +1,4 @@
-# Rapid Reload 🔄
+# Bolt Reload 🔄⚡
 
 Tired of hunting through menus just to reload your VS Code window? This extension adds a one-click **Reload** button right to your status bar — with a confirmation prompt so you never reload by accident.
 

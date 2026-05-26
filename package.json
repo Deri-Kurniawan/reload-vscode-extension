@@ -1,10 +1,10 @@
 {
-  "name": "rapid-reload",
-  "displayName": "Rapid Reload",
+  "name": "bolt-reload",
+  "displayName": "Bolt Reload",
   "description": "A simple extension to reload the current window with an optional confirmation dialog.",
   "version": "0.0.1",
   "publisher": "deri",
-  "icon": "assets/images/rapid-reload-128x128.png",
+  "icon": "assets/images/icon-128x128.png",
   "author": {
     "name": "Deri Kurniawan",
     "email": "hi@derikn.com",
@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Deri-Kurniawan/rapid-reload.git"
+    "url": "https://github.com/Deri-Kurniawan/bolt-reload.git"
   },
-  "homepage": "https://github.com/Deri-Kurniawan/rapid-reload",
+  "homepage": "https://github.com/Deri-Kurniawan/bolt-reload",
   "bugs": {
-    "url": "https://github.com/Deri-Kurniawan/rapid-reload/issues"
+    "url": "https://github.com/Deri-Kurniawan/bolt-reload/issues"
   },
   "engines": {
     "vscode": "^1.120.0"
@@ -33,7 +33,7 @@
       "title": "Reload",
       "type": "object",
       "properties": {
-        "rapid-reload.confirmReload": {
+        "bolt-reload.confirmReload": {
           "type": "boolean",
           "default": true,
           "description": "Show confirmation dialog before reloading the window"
@@ -42,7 +42,7 @@
     },
     "commands": [
       {
-        "command": "rapid-reload.reloadWindow",
+        "command": "bolt-reload.reloadWindow",
         "title": "Reload Window"
       }
     ]
