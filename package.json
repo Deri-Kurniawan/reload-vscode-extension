@@ -4,6 +4,7 @@
   "description": "A simple extension to reload the current window with an optional confirmation dialog.",
   "version": "0.0.1",
   "publisher": "deri",
+  "icon": "assets/images/rapid-reload-128x128.png",
   "author": {
     "name": "Deri Kurniawan",
     "email": "hi@derikn.com",
