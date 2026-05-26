@@ -15,8 +15,8 @@ function activate(context) {
 
 	console.log('Reload extension is now active!');
 
-	const reloadCommand = vscode.commands.registerCommand('reload.reloadWindow', function () {
-		const config = vscode.workspace.getConfiguration('reload');
+	const reloadCommand = vscode.commands.registerCommand('rapid-reload.reloadWindow', function () {
+		const config = vscode.workspace.getConfiguration('rapid-reload');
 		const isConfirmReloadEnabled = config.get('confirmReload', true);
 
 		if (!isConfirmReloadEnabled) {
@@ -58,7 +58,7 @@ function activate(context) {
 	const reloadStatusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
 
 	reloadStatusBarItem.text = '$(sync) Reload';
-	reloadStatusBarItem.command = 'reload.reloadWindow';
+	reloadStatusBarItem.command = 'rapid-reload.reloadWindow';
 	reloadStatusBarItem.tooltip = 'Reload the current window';
 	reloadStatusBarItem.show();
 

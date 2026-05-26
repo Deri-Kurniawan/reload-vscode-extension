@@ -1,6 +1,6 @@
 {
-  "name": "reload",
-  "displayName": "Reload",
+  "name": "rapid-reload",
+  "displayName": "Rapid Reload",
   "description": "A simple extension to reload the current window with an optional confirmation dialog.",
   "version": "0.0.1",
   "publisher": "deri",
@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Deri-Kurniawan/reload-vscode-extension.git"
+    "url": "https://github.com/Deri-Kurniawan/rapid-reload.git"
   },
-  "homepage": "https://github.com/Deri-Kurniawan/reload-vscode-extension",
+  "homepage": "https://github.com/Deri-Kurniawan/rapid-reload",
   "bugs": {
-    "url": "https://github.com/Deri-Kurniawan/reload-vscode-extension/issues"
+    "url": "https://github.com/Deri-Kurniawan/rapid-reload/issues"
   },
   "engines": {
     "vscode": "^1.120.0"
@@ -32,7 +32,7 @@
       "title": "Reload",
       "type": "object",
       "properties": {
-        "reload.confirmReload": {
+        "rapid-reload.confirmReload": {
           "type": "boolean",
           "default": true,
           "description": "Show confirmation dialog before reloading the window"
@@ -41,7 +41,7 @@
     },
     "commands": [
       {
-        "command": "reload.reloadWindow",
+        "command": "rapid-reload.reloadWindow",
         "title": "Reload Window"
       }
     ]
